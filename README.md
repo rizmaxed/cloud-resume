@@ -56,6 +56,10 @@ Check out the live demo of the resume website: [https://aasmasayyad.com/](https:
 
    Your resume website is now live at `http://your-resume-website-name.s3-website.your-region.amazonaws.com`
 
+5. **Want to add a favicon?:**
+
+Generate one easily here [Simple Favicon Generator](https://riyazsayyad.com/generate-favicon.html)
+
 ## Want to Learn AWS Cloud?
 
 If you want to learn more about AWS Cloud, check out [needforcloud.com](https://needforcloud.com) to kickstart your journey.
