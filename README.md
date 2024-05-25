@@ -17,7 +17,7 @@ Check out the live demo of the resume website: [https://aasmasayyad.com/](https:
 
 2. **Customize `index.html`:**
 
-   Open `index.html` and replace the placeholders with your information:
+   Open `index.html` and replace the placeholders with your information.
 
 3. **Deploy to AWS S3:**
 
@@ -58,4 +58,4 @@ Check out the live demo of the resume website: [https://aasmasayyad.com/](https:
 
 ## Want to Learn AWS Cloud?
 
-If you want to learn more about AWS Cloud, check out needforcloud.com for great resources and tutorials.
+If you want to learn more about AWS Cloud, check out [needforcloud.com](https://needforcloud.com) to kickstart your journey.
