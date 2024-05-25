@@ -32,7 +32,7 @@ Check out the live demo of the resume website: [https://aasmasayyad.com/](https:
    - Upload your website files to the S3 bucket:
 
      ```bash
-     aws s3 sync . s3://your-resume-bucket-name --exclude ".git/*"
+     aws s3 sync . s3://your-resume-website-name --exclude ".git/*"
      ```
 
    - Make your bucket public. Go to the S3 console, select your bucket, go to the "Permissions" tab, and add a bucket policy like this. Be sure to change the bucket name in the policy code below:
