@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ Your Name }} - {{ Your Title }}</title>
+    <meta name="description" content="{{ Your Description }}">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div class="container mx-auto max-w-screen-lg p-8">
+        <header>
+            <div class="bg-indigo-700 text-white p-3 shadow-lg">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold uppercase">{{ Your Name }}</h1>
+                    <p class="text-lg">{{ Your Title }}</p>
+                </div>
+            </div>
+            <div class="bg-indigo-50 text-gray-600 p-3 shadow-lg">
+                <div class="text-center">
+                    <p class="text-md">
+                        <a class="hover:underline" href="mailto:{{ your-email@example.com }}">hello[at]example.com</a> |
+                        <span>{{ Your Location }}</span>
+                    </p>
+                    <p class="text-md">
+                        <a class="hover:underline" href="{{ Your LinkedIn URL }}" target="_blank">LinkedIn</a> |
+                        <a class="hover:underline" href="{{ Your GitHub URL }}" target="_blank">Github</a> |
+                        <a class="hover:underline" href="{{ Your Website or Blog URL }}" target="_blank">Website</a>
+                    </p>
+                </div>
+            </div>
+        </header>
+        <main class="bg-white shadow-lg p-8">
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold mb-5">Summary</h2>
+                <p class="text-gray-700">{{ Your Summary }}</p>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold mb-5">Skills</h2>
+                <ul class="list-disc list-inside text-gray-700 pl-0">
+                    <li><span class="font-bold">{{ Skill 1 }}</span> – {{ Skill 1 Description }}</li>
+                    <li><span class="font-bold">{{ Skill 2 }}</span> – {{ Skill 2 Description }}</li>
+                    <li><span class="font-bold">{{ Skill 3 }}</span> – {{ Skill 3 Description }}</li>
+                    <li><span class="font-bold">{{ Skill 4 }}</span> – {{ Skill 4 Description }}</li>
+                    <li><span class="font-bold">{{ Skill 5 }}</span> – {{ Skill 5 Description }}</li>
+                </ul>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold mb-5">Certifications</h2>
+                <ul class="list-disc list-inside text-gray-700 pl-0">
+                    <li>{{ Certification 1 }}</li>
+                    <li>{{ Certification 2 }}</li>
+                </ul>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold mb-5">Key Projects</h2>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Project 1 Title }}</h3>
+                    <ul class="list-disc list-inside text-gray-700 pl-0 mt-2">
+                        <li>{{ Project 1 Detail 1 }}</li>
+                        <li>{{ Project 1 Detail 2 }}</li>
+                        <li>{{ Project 1 Detail 3 }}</li>
+                        <li>{{ Project 1 Detail 4 }}</li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Project 2 Title }}</h3>
+                    <ul class="list-disc list-inside text-gray-700 pl-0 mt-2">
+                        <li>{{ Project 2 Detail 1 }}</li>
+                        <li>{{ Project 2 Detail 2 }}</li>
+                        <li>{{ Project 2 Detail 3 }}</li>
+                        <li>{{ Project 2 Detail 4 }}</li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Project 3 Title }}</h3>
+                    <ul class="list-disc list-inside text-gray-700 pl-0 mt-2">
+                        <li>{{ Project 3 Detail 1 }}</li>
+                        <li>{{ Project 3 Detail 2 }}</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold mb-5">Employment History</h2>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Job 1 Company }}</h3>
+                    <p class="text-gray-600">{{ Job 1 Dates }}</p>
+                    <p class="text-gray-700"><strong>Role:</strong> {{ Job 1 Role }}</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2">
+                        <li>{{ Job 1 Detail 1 }}</li>
+                        <li>{{ Job 1 Detail 2 }}</li>
+                        <li>{{ Job 1 Detail 3 }}</li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Job 2 Company }}</h3>
+                    <p class="text-gray-600">{{ Job 2 Dates }}</p>
+                    <p class="text-gray-700"><strong>Role:</strong> {{ Job 2 Role }}</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2">
+                        <li>{{ Job 2 Detail 1 }}</li>
+                        <li>{{ Job 2 Detail 2 }}</li>
+                        <li>{{ Job 2 Detail 3 }}</li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Job 3 Company }}</h3>
+                    <p class="text-gray-600">{{ Job 3 Dates }}</p>
+                    <p class="text-gray-700"><strong>Role:</strong> {{ Job 3 Role }}</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2">
+                        <li>{{ Job 3 Detail 1 }}</li>
+                        <li>{{ Job 3 Detail 2 }}</li>
+                        <li>{{ Job 3 Detail 3 }}</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold mb-5">Education</h2>
+                <div class="mb-5">
+                    <h3 class="text-xl font-semibold">{{ Your University }}</h3>
+                    <p class="text-gray-600">{{ Graduation Date }}</p>
+                    <p class="text-gray-700">{{ Your Degree }}</p>
+                </div>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="text-2xl font-bold mb-5">Awards and Recognition</h2>
+                <ul class="list-disc list-inside text-gray-700 pl-0">
+                    <li>{{ Award 1 }}</li>
+                    <li>{{ Award 2 }}</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="bg-indigo-700 text-white p-5 shadow-lg">
+            <div class="text-center">
+                Created with &hearts; in {{ Your Country }} by {{ Your Name }}
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
