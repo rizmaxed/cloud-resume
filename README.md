@@ -58,7 +58,7 @@ Check out the live demo of the resume website: [https://aasmasayyad.com/](https:
 
 5. **Want to add a favicon?:**
 
-Generate one easily here [Simple Favicon Generator](https://riyazsayyad.com/generate-favicon.html)
+    Generate one easily here [Simple Favicon Generator](https://riyazsayyad.com/generate-favicon.html)
 
 ## Want to Learn AWS Cloud?
 
